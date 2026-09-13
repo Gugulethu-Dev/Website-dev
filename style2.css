@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-image: url(about.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(0.7);
+    
+}
+
+.navbar{
+    width: 90%;
+    max-width: 1200px;
+    height: 75px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    max-width: 1200px;
+    
+
+}
+
+
+.about{
+    background: rgba(165, 221, 227, 0.92);
+    backdrop-filter: blur(2px);
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+    
+}
+
+.about ul {
+    color: #334155;
+    text-align: left;
+    margin-bottom: 8px;
+    font-family: Arial, sans-serif;
+}
+
+.about h1, .about h2{
+    color: #258066;
+    text-decoration: none;
+    font-family:Arial, sans-serif;
+    margin-bottom: 15px;
+}
+
+.logo{
+    color: #16664c;
+    font-weight: 700;
+    font-size: 25px;
+    width: auto;
+    white-space: nowrap;
+    font-family:Arial;
+    padding-left: -150px;
+    float: left;
+    padding-top: 10px;
+}
+
+.navbar ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #258066;
+    font-family: Arial ;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.navbar ul li a:hover{
+    color: #373535;
+}
+
+.about ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 20px;
+    gap: 10px;
+}
+
+.about ul li {
+    
+    padding: 10px 15px;
+    border-radius: 1px;
+    font-size: 16px;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    list-style: circle;
+}
+
+
+.about p{
+    color: #000000;
+    line-height: 1.7;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    margin-bottom: 20px;
+}
+
+.about a {
+    display: inline-block;
+    margin-top: 20px;
+    background: #258066;
+    color: white !important;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.about a:hover{
+    background-color: #373535;
+}
+
+
